@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+
+}
+header {
+    background-color: lightgreen;
+    color: white;
+    padding: 20px ;
+    text-align: center;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+     margin: 10px 0 ;
+}
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.section {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+   
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightgreen;
+    color: white;  
+    padding: 8px;
+    border: 2px solid lightgray;
+}
+
+td {
+    padding: 8px;
+    border: 2px solid lightgray;
+}
+
+form {
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+
+}
+textarea {
+    height: 80px;
+}
+button {
+    background-color: lightgreen;
+    color: white;
+    padding: 10px 15px ;
+    border: none;
+    cursor: pointer;
+
+}
+footer {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 20px ;
+    margin-top: 15px;
+
+}
